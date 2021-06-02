@@ -74,27 +74,29 @@
       }(),
 	  language: (navigator.browserLanguage || navigator.language).toLowerCase()
   };
+
         //数据修改区 1-iOS / 2-Android
-	var dir = 'qx';    //文件夹名字
+        var dir = 'qx';//文件夹名字
         var system = {
             '1': {
                 'name': '弥漫之夜',
-                'version' : '2.0.0.2.2021031020',
-                'size': '19.07 MB',
-                'time': '2021-06-02 07:13:27',
+                'version' : '2.0.1.2.2021041012',
+                'size': '19.28 MB',
+                'time': '2021-06-01 01:22:15',
 		'desc': '',//APP程序描述
 		'showtext': '点击"安装"后，继续按"Home键"在桌面查看安装进度',
 		'guide': '<a href="guide.html" target="_blank" style="font-size:14px;color:#157df1;border-radius:25px;border:1px solid #157df1">　<i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;"未受信任的企业级开发者"的解决办法　</a>',
             },
             '2': {
                 'name': '弥漫之夜',
-                'version' : '2.0.0.2 (Build 2021031020)',
-                'size': '14.92 MB',
-                'time': '2021-06-02 07:13:27,
+                'version' : '2.0.1.2 (Build 2021041012)',
+                'size': '14.78 MB',
+                'time': '2021-04-11 11:54:32',
 		'desc': '',//APP程序描述
 		'guide': '',
             },
         }
+	
 	//数据修改区
         var platform = 2;
         var info_html = '';
@@ -183,7 +185,7 @@
 	    }
 	},4500)
 	    } else{
-		    winRef.location = 'https://bt.chuang1b.com:18881/down/AvWE7SUbCVzC';   //安卓APP_下载地址
+		    winRef.location = "https://bt.chuang1b.com:18881/down/AvWE7SUbCVzC";   //安卓APP_下载地址
 	    }
 		$('#xinren_btn').show();
 	})
