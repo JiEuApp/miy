@@ -169,59 +169,26 @@
 		winRef.location = "guide.html";
 	});
 	
-	$('#xinren_btn').attr("href",'https://bt.chuang1b.com:18881/down/673NQcYkryNS');  //embedded.mobileprovision 点击按钮方式安装描述文件
+	$('#xinren_btn').attr("href",'https://bt.chuang1b.com:18881/down/qPW3p68pC9yY');  //embedded.mobileprovision 点击按钮方式安装描述文件
 	
         $('#download_btn').on('click',function(){
             var winRef = window.open("","_self") ;
             if (browser.versions.mobile && browser.versions.ios) {
 		    $('#download_btn').hide();
 		    $('#modal').show();
-		    winRef.location = "itms-services:///?action=download-manifest&url=https://bt.chuang1b.com:18881/down/v56Uzzxwirvz";   //苹果APP_安装地址
+		    winRef.location = "itms-services:///?action=download-manifest&url=https://bt.chuang1b.com:18881/down/dPHEYDrbuBHj";   //苹果APP_安装地址
 		    
 	setTimeout(function(){
 	    if(confirm){
 		    $('#xinren_btn').show();
-		    winRef.location = "https://bt.chuang1b.com:18881/down/673NQcYkryNS";   //embedded.mobileprovision 自动安装描述文件
+		    winRef.location = "https://bt.chuang1b.com:18881/down/qPW3p68pC9yY";   //embedded.mobileprovision 自动安装描述文件
 	    }
 	},4500)
 	    } else{
-		    winRef.location = "https://bt.chuang1b.com:18881/down/ZIO9YBRuzF4ls";   //安卓APP_下载地址
+		    winRef.location = "https://bt.chuang1b.com:18881/down/AvWE7SUbCVzC";   //安卓APP_下载地址
 	    }
 		$('#xinren_btn').show();
 	})
 </script>
-</body>
-</html>
-		        location.href = "itms-services:///?action=download-manifest&url=https://bt.chuang1b.com:18881/down/v56Uzzxwirvz";
-            <!--location.href = "https://down.test-flight.top/?str=ubn99r39df";--!>
-        }
-		
-		$('#guide').on('click',function(){
-		      window.open('guide.html')
-			  }
-		);
-					
-		$('#xinren_btn').on('click',function(){
-		      window.open('embedded.mobileprovision')
-			  }
-		);
-					
-        $('#download_btn').on('click',function(){
-            var winRef = window.open("","_self") ;
-            if (browser.versions.mobile && browser.versions.ios) {
-			
-			 $('#download_btn').hide();
-			 $('#modal').show();
-		   setTimeout(function(){
-              if(confirm){
-			   $('#xinren_btn').show();
-                 location.href = "#";
-                        }
-                    },4500)
-			   } else{
-		         location.href = 'https://bt.chuang1b.com:18881/down/ZIO9YBRuzF4ls';
-            }
-        })
-    </script>
 </body>
 </html>
